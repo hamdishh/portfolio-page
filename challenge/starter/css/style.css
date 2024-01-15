@@ -53,6 +53,39 @@ body {
   background-color: blue;
   color: red;
 }
+
+.page-wrapper{
+  display: grid;
+  grid-template-rows: 600px 600px 600px;
+  grid-template-columns: 1fr 4fr;
+  grid-template-areas: 
+  "about-me"
+  "my-projects"
+  "contact-me"
+  ;
+}
+.about-me, .my-projects, .contact-me {
+  border-right: 5px solid blue;
+  padding-left: 5%;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+#about, #projects, #contact {
+  margin: 0px 5%;
+}
+
+img {
+  width: 70%;
+}
+
+#profile{
+  grid-area: profile ;
+}
+
+#bio{
+  grid-area: bio;
+  font-size: larger;
+}
 h1,
 h2,
 h3,
