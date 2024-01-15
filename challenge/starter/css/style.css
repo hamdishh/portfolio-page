@@ -37,6 +37,22 @@ body {
 .navigation a {
   color: blueviolet;
 }
+
+.hero-banner {
+  position: relative;
+  background-image: url(../images/02-hero-bg.jpg);
+  height: 200px;
+  width: 100%;
+}
+
+.hero-banner h2 {
+  position: absolute;
+  bottom: 7%;
+  right: 1%;
+  padding: 0.2%;
+  background-color: blue;
+  color: red;
+}
 h1,
 h2,
 h3,
