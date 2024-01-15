@@ -7,8 +7,36 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color:(87, 86, 86);
 }
 
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: #FDC0B4;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.nav-bar h1 {
+  background-color: red ;
+  padding-left: 4%;
+  padding-right: 0.5%;
+  font-size: xx-large;
+  color: aqua;
+}
+
+.navigation {
+  display: flex;
+  margin-left: auto;
+  width: 30%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation a {
+  color: blueviolet;
+}
 h1,
 h2,
 h3,
