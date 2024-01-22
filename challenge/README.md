@@ -1,58 +1,16 @@
 # Unit 2 Challenge: Portfolio
 
 ## Description
+An easily accessible portfolio page showcasing my progress during the front end bootcamp.
 
 
+## Code highlights/ What was learnt during the challenge
+What i found to quite bothersome doing this challenge was having to manually type in each class for styling whenever there was multiple other classes that required the identical styling in css. For instance in my about,contact and projects section. I was able to overcome this by experimenting and putting a comma in between each class like so : .about-me, .my-projects, .contact-me. This method turned out to be successful and saved quite alot of time of mine.
 
-## 
 
-The following animation shows the web application's appearance and functionality:
+## Sample Images
+![Alt text](<Screenshot 2024-01-22 at 22.18.06-1.png>)
 
-![portfolio demo](./images/01-css-challenge-demo.gif)
+![Alt text](<Screenshot 2024-01-22 at 22.18.41.png>)
+### Deployment Link
 
-Feel free to use your own colors and images.
-
-## Grading Requirements
-
-This challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the mock-up functionality provided in the challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
