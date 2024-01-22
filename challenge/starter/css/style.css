@@ -139,6 +139,35 @@ background-image: url(../images/02-portfolio-2.jpg);
   background-image: url(../images/02-portfolio-2.jpg);
 }
 
+.project-grid-area {
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+margin: 1%;
+cursor: pointer;
+display: grid;
+align-content: end;
+}
+
+.heading {
+  background-color: blueviolet;
+  font-weight: bold;
+  color: aqua;
+  border-bottom: 5px solid #FDC0B4;
+}
+
+.first-heading {
+  padding-top: 108%;
+}
+
+.second-heading {
+  padding: 25%;
+}
+
+.contact a {
+  display: inline-flex;
+  justify-content: space-between;
+}
 
 h1,
 h2,
@@ -151,4 +180,8 @@ h6 {
 
 p {
   margin: 0;
+}
+
+@media only screen and (max-width 600px) {
+
 }
