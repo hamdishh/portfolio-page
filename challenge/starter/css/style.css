@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+.body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -74,18 +74,72 @@ body {
   margin: 0px 5%;
 }
 
-img {
+.img {
   width: 70%;
 }
 
-#profile{
+.profile{
   grid-area: profile ;
 }
 
-#bio{
+.bio{
   grid-area: bio;
   font-size: larger;
 }
+
+.about {
+  margin: 0px 5%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 500px;
+  grid-template-areas: 
+  "profile bio"
+  ;
+}
+
+.contact a {
+  color:#FDC0B4
+  font-weight: bold;
+}
+
+.projects{
+  margin: 0pz 5%;
+  display: grid;
+  grid-template-rows: 290px 290px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "Project Placeholder 1 Project Placeholder 2"
+  "Project Placeholder 3 Project Placeholder 4"
+  ;
+}
+
+.horiseon-refractor {
+  grid-area: Horiseon;
+  background-image: url(../images/horiseon.png);
+}
+
+.Firstplaceholder {
+grid-area: Placeholder1;
+background-image: url(../images/02-portfolio-2.jpg);
+}
+
+.Secondplaceholder {
+  grid-area: Placeholder2;
+  background-image: url(../images/02-portfolio-2.jpg);
+}
+
+.Thirdplaceholder {
+  grid-area: Placeholder3;
+  background-image: url(../images/02-portfolio-2.jpg);
+}
+
+.Fourthplaceholder {
+  grid-area: Placeholder4;
+  background-image: url(../images/02-portfolio-2.jpg);
+}
+
+
 h1,
 h2,
 h3,
