@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.body {
+body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,7 +19,7 @@
 }
 
 .nav-bar h1 {
-  background-color: red ;
+  background-color: red;
   padding-left: 4%;
   padding-right: 0.5%;
   font-size: xx-large;
@@ -54,21 +54,22 @@
   color: red;
 }
 
-.page-wrapper{
+.page-wrapper {
   display: grid;
   grid-template-rows: 600px 600px 600px;
   grid-template-columns: 1fr 4fr;
-  grid-template-areas: 
-  "about-me"
-  "my-projects"
-  "contact-me"
-  ;
+  grid-template-areas:
+    "about-me"
+    "my-projects"
+    "contact-me";
 }
+
 .about-me, .my-projects, .contact-me {
   border-right: 5px solid blue;
   padding-left: 5%;
   padding-top: 2%;
 }
+
 #about, #projects, #contact {
   margin: 0px 5%;
 }
@@ -77,11 +78,11 @@
   width: 70%;
 }
 
-.profile{
-  grid-area: profile ;
+.profile {
+  grid-area: profile;
 }
 
-.bio{
+.bio {
   grid-area: bio;
   font-size: larger;
 }
@@ -92,25 +93,23 @@
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 500px;
-  grid-template-areas: 
-  "profile bio"
-  ;
+  grid-template-areas:
+    "profile bio";
 }
 
 .contact a {
-  color:#FDC0B4;
+  color: #FDC0B4;
   font-weight: bold;
 }
 
-.projects{
+.projects {
   margin: 0px 5%;
   display: grid;
   grid-template-rows: 290px 290px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "Project Placeholder 1 Project Placeholder 2"
-  "Project Placeholder 3 Project Placeholder 4"
-  ;
+    "Project Placeholder 1 Project Placeholder 2"
+    "Project Placeholder 3 Project Placeholder 4";
 }
 
 .horiseon-refractor {
@@ -119,8 +118,8 @@
 }
 
 .Firstplaceholder {
-grid-area: Placeholder1;
-background-image: url(../images/02-portfolio-2.jpg);
+  grid-area: Placeholder1;
+  background-image: url(../images/02-portfolio-2.jpg);
 }
 
 .Secondplaceholder {
@@ -139,13 +138,13 @@ background-image: url(../images/02-portfolio-2.jpg);
 }
 
 .project-grid-area {
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-margin: 1%;
-cursor: pointer;
-display: grid;
-align-content: end;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1%;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
 }
 
 .heading {
@@ -187,38 +186,32 @@ p {
     display: grid;
     grid-template-rows: 75px 950px 100px;
     grid-template-columns: 1fr;
-    grid-template-areas: 
-    "about-me"
-    "my-projects"
-    "contact-me"
-    ;
+    grid-template-areas:
+      "about-me"
+      "my-projects"
+      "contact-me";
   }
 
   .about {
     grid-template-rows: 500px 500px;
     grid-template-columns: 1fr;
-    grid-template-areas: 
-    "profile"
-    "bio"
-    ;
+    grid-template-areas:
+      "profile"
+      "bio";
   }
   .first-heading {
     padding-top: 54%;
   }
   .projects {
     margin: 0px 5%;
-    display:grid;
+    display: grid;
     grid-template-rows: 290px 290px 290px 290px;
     grid-template-columns: 1fr;
     grid-template-areas:
-    "Horiseon"
-    "Firstplaceholder"
-    "Secondplaceholder"
-    "Thirdplaceholder"
-    "Fourthplaceholder"
-     ;
-      
-      }
-    
-  
+      "horiseon"
+      "firstplaceholder"
+      "secondplaceholder"
+      "thirdplaceholder"
+      "fourthplaceholder";
+  }
 }
