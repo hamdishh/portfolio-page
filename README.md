@@ -12,5 +12,6 @@ What i found to quite bothersome doing this challenge was having to manually typ
 ![Alt text](<Screenshot 2024-01-22 at 22.18.06-1.png>)
 
 ![Alt text](<Screenshot 2024-01-22 at 22.18.41.png>)
-### Deployment Link
 
+### Deployment Link
+https://hamdishh.github.io/portfolio-page/
