@@ -35,7 +35,7 @@ body {
 }
 
 .navigation a {
-  color: blueviolet;
+  color: #884C66;
 }
 
 .hero-banner {
@@ -50,8 +50,8 @@ body {
   bottom: 7%;
   right: 1%;
   padding: 0.2%;
-  background-color: blue;
-  color: red;
+  background-color: #F15B7E;
+  color: #FFFFFF;
 }
 
 .page-wrapper {
@@ -65,7 +65,7 @@ body {
 }
 
 .about-me, .my-projects, .contact-me {
-  border-right: 5px solid blue;
+  border-right: 5px solid #F15B7E;
   padding-left: 5%;
   padding-top: 2%;
 }
@@ -98,7 +98,7 @@ body {
 }
 
 .contact a {
-  color: #FDC0B4;
+  color: #F15B7E;
   font-weight: bold;
 }
 
@@ -148,9 +148,9 @@ body {
 }
 
 .heading {
-  background-color: blueviolet;
+  background-color: #F15B7E;
   font-weight: bold;
-  color: aqua;
+  color: #FFFFFF;
   border-bottom: 5px solid #FDC0B4;
 }
 
