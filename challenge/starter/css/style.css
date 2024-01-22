@@ -79,11 +79,21 @@ body {
 }
 
 .profile {
-  grid-area: profile;
+  /*grid-area: profile;*/
+    width: 100%; 
+    text-align: center;
+}
+
+#profile {
+  display: inline-block; 
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 8px;
 }
 
 .bio {
-  grid-area: bio;
+  /*grid-area: bio;*/
+  width: 100%;
   font-size: larger;
 }
 
@@ -140,22 +150,22 @@ body {
 .project-grid-area {
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  margin: 1%;
-  cursor: pointer;
+background-repeat: no-repeat;
+margin: 1%;
+cursor: pointer;
   display: grid;
   align-content: end;
 }
 
 .heading {
-  background-color: #F15B7E;
-  font-weight: bold;
-  color: #FFFFFF;
+background-color: #F15B7E;
+font-weight: bold;
+color: #FFFFFF;
   border-bottom: 5px solid #FDC0B4;
 }
 
 .first-heading {
-  padding-top: 108%;
+padding-top: 108%;
 }
 
 .second-heading {
@@ -183,10 +193,10 @@ p {
 @media only screen and (max-width: 600px) {
 
   .page-wrapper {
-    display: grid;
+  display: grid;
     grid-template-rows: 75px 950px 100px;
-    grid-template-columns: 1fr;
-    grid-template-areas:
+grid-template-columns: 1fr;
+  grid-template-areas:
       "about-me"
       "my-projects"
       "contact-me";
@@ -194,13 +204,13 @@ p {
 
   .about {
     grid-template-rows: 500px 500px;
-    grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
     grid-template-areas:
       "profile"
       "bio";
   }
   .first-heading {
-    padding-top: 54%;
+  padding-top: 54%;
   }
   .projects {
     margin: 0px 5%;
