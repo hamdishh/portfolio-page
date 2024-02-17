@@ -79,6 +79,43 @@ body {
   
 }
 
+#profile {
+  width: 143px;
+  margin-right: 250px;
+  margin-top: 20px;
+  border-radius: -12%;
+  
+  
+}
+
+.horiseon-refractor img {
+  width: 220px;
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 20px; 
+}
+
+.gallery-item {
+  position: relative;
+}
+
+.gallery-item img {
+  width: 100%; /* Ensure all images are the same size */
+  display: block;
+}
+
+/* Style the first image (surf report) */
+.gallery-item:first-child {
+  grid-column: 1 / span 2; /* Span across both columns */
+}
+
+
+
+
 .profile {
   /*grid-area: profile;*/
     width: 100%; 
